@@ -1,0 +1,48 @@
+<!-- POP UP LOGIN MODAL https://www.codehim.com/bootstrap/bootstrap-4-modal-popup-login-form/ -->
+<div class="modal fade" id="registerModal">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header border-bottom-0">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="form-title text-center" id="registratieTitel">
+          <h4>Maak een account aan:</h4>
+        </div>
+        <div class="d-flex flex-column">
+          <form id="registratie">
+            <div class="form-group">
+              <p id="errorDB"></p>
+              <label for="email">Email:</label>
+              <input type="email" class="form-control" id="email" name="email" placeholder="Vul hier je emailadres in">
+              <p id="errorEmail"></p>
+            </div>
+            <div class="form-group">
+              <label for="fName">Voornaam:</label>
+              <input type="text" class="form-control" id='fName' name="fName" placeholder="Wat is je voornaam?">
+              <p id="errorfName"></p>
+            </div>
+            <div class="form-group">
+              <label for="lName">Achternaam:</label>
+              <input type="text" class="form-control" id="lName" name="lName" placeholder="Wat is je achternaam?">
+              <p id="errorlName"></p>
+            </div>
+            <div class="form-group">
+              <label for="passwd">Paswoord:</label>
+              <input type="password" class="form-control" id="passwd" name="passwd" placeholder="Vul hier je wachtwoord in">
+              <p id="errorPasswd"></p>
+            </div>
+            <div class="form-group">
+              <label for="repeatPasswd">Herhaal Paswoord:</label>
+              <input type="password" class="form-control" id="repeatPasswd" name="repeatPasswd" placeholder="Herhaal hier je wachtwoord">
+              <p id="errorRepeatPasswd"></p>
+            </div>
+            <button type="button" id="registratieKnop" class="btn btn-info btn-block btn-round">Registreer</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

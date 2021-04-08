@@ -1,0 +1,2 @@
+Error logged: 2020-12-23 21:45:54 - [ 1024 ]: postalcode delete SQL failed with query: DELETE FROM postalCodes where postalCode=2910; in file C:\Users\thoma\Documents\EICT\XAMPP\htdocs\Patissien\Scripts\LoggedIn\adminActions.php on line 321
+Error logged: 2020-12-23 22:04:11 - [ 1024 ]: postalcode delete SQL failed with query: DELETE FROM postalCodes where postalCode=2910; in file C:\Users\thoma\Documents\EICT\XAMPP\htdocs\Patissien\Scripts\LoggedIn\adminActions.php on line 360
